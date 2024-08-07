@@ -47,5 +47,5 @@ console.log("Parent of book list is:", bookListTitle.parentNode.parentNode);
 
 console.log("parent element is:", bookListTitle.parentElement.parentElement);
 
-console.log(bookListTitle.childNodes[2].textContent);
+console.log(bookListTitle.childNodes);
 console.log(bookListTitle.children);

@@ -26,4 +26,6 @@
     // console.log(headingNodes);
     // const headingNodeList = Array.from(headingNodes);
     // console.log(headingNodeList);
-    
+
+    const nodes = document.querySelectorAll("button"); // it returns nodeList to create for each method call
+nodes.forEach(btn => console.log(btn));// 
